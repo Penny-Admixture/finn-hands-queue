@@ -1,1 +1,0 @@
-{"task_id": "e2e-selftest-001", "op": "EXEC", "cmd": "python -c \"print('e2e')\"", "project": "C:\\Users\\llm_development\\finn-hands", "ttl": 1, "created": "2026-10-15T00:40:00Z"}
