@@ -1,0 +1,8 @@
+{
+  "task_id": "check-fsp-001",
+  "OP": "EXEC",
+  "CMD": "python -c \"import os; p=r'C:\\Users\\llm_development\\finn-hands'; print('CWD:', os.getcwd()); print('Exists:', os.path.exists(os.path.join(p, 'test-fuck-shit-piss-ass'))); print('List:', [x for x in os.listdir(p) if 'fuck' in x.lower()])\"",
+  "PROJECT": "C:\\Users\\llm_development\\finn-hands",
+  "TTL": 72,
+  "CREATED": "2026-10-15T00:50:00Z"
+}
