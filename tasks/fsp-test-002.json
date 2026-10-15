@@ -1,0 +1,8 @@
+{
+  "task_id": "fsp-test-002",
+  "op": "EXEC",
+  "cmd": "python -c \"import os; d='test-fuck-shit-piss-ass'; os.makedirs(d, exist_ok=True); open(os.path.join(d, 'yes-fuck-shit-piss-ass.txt'), 'w').write('yes'); print('done')\"",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "ttl": 72,
+  "created": "2026-10-15T00:52:00Z"
+}
