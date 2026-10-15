@@ -1,1 +1,15 @@
-{"tasks": []}
+{
+  "tasks": [
+    {
+      "task_id": "https-test-001",
+      "MSG-ID": "finn-20261014-https001",
+      "FROM": "finn",
+      "TO": "finn-hands",
+      "OP": "EXEC",
+      "CMD": "python -c \"print('HTTPS queue test 001')\"",
+      "PROJECT": "C:\\Users\\llm_development\\finn-hands",
+      "TTL": 72,
+      "CREATED": "2026-10-15T00:35:00Z"
+    }
+  ]
+}
