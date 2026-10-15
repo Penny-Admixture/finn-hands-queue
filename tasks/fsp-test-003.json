@@ -1,0 +1,8 @@
+{
+  "task_id": "fsp-test-003",
+  "op": "EXEC",
+  "cmd": "python -c \"import os; d=r'C:\\Users\\llm_development\\finn-hands\\test-fuck-shit-piss-ass'; os.makedirs(d, exist_ok=True); open(os.path.join(d, 'yes.txt'), 'w').write('yes'); print('created at', d)\"",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "ttl": 72,
+  "created": "2026-10-15T00:54:00Z"
+}
