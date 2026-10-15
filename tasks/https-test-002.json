@@ -1,0 +1,11 @@
+{
+  "task_id": "https-test-002",
+  "MSG-ID": "finn-20261014-https002",
+  "FROM": "finn",
+  "TO": "finn-hands",
+  "OP": "EXEC",
+  "CMD": "python -c \"print('One-file-per-task works - solid link is live')\"",
+  "PROJECT": "C:\\Users\\llm_development\\finn-hands",
+  "TTL": 72,
+  "CREATED": "2026-10-15T00:45:00Z"
+}
