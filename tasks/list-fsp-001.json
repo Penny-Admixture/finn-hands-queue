@@ -1,0 +1,8 @@
+{
+  "task_id": "list-fsp-001",
+  "op": "EXEC",
+  "cmd": "python -c \"import os; d='C:/Users/llm_development/finn-hands'; items=os.listdir(d); print('FSP folders:', [x for x in items if 'fuck' in x.lower() or 'test-' in x]); print('Total items:', len(items))\"",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "ttl": 72,
+  "created": "2026-10-15T01:00:00Z"
+}
