@@ -1,0 +1,8 @@
+{
+  "task_id": "marley-verify-001",
+  "op": "FILE-READ",
+  "path": "C:\\Users\\llm_development\\finn-hands\\data\\heartbeat.json",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "created": "2026-10-17T00:36:00Z",
+  "ttl": 72
+}
