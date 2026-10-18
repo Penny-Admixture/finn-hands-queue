@@ -1,0 +1,8 @@
+{
+  "task_id": "survey-ai-userdata-001",
+  "op": "EXEC",
+  "cmd": "python -c \"import os, json, time\ndef survey(p):\n    r={'exists':os.path.isdir(p),'files':0,'bytes':0,'oldest':None,'newest':None,'top':[]}\n    if not r['exists']: return r\n    for root,dirs,files in os.walk(p):\n        if root==p: r['top']=sorted(dirs)[:30]\n        for f in files:\n            fp=os.path.join(root,f)\n            try: st=os.stat(fp)\n            except OSError: continue\n            r['files']+=1; r['bytes']+=st.st_size; mt=st.st_mtime\n            if r['oldest'] is None or mt<r['oldest']: r['oldest']=mt\n            if r['newest'] is None or mt>r['newest']: r['newest']=mt\n    f=lambda t: time.strftime('%Y-%m-%d',time.localtime(t)) if t else None\n    r['oldest']=f(r['oldest']); r['newest']=f(r['newest'])\n    return r\nout={\n'claude_projects':survey('C:/Users/llm_development/.claude/projects'),\n'claude_history_exists':os.path.exists('C:/Users/llm_development/.claude/history.jsonl'),\n'codex_sessions':survey('C:/Users/llm_development/.codex/sessions'),\n'codex_history_exists':os.path.exists('C:/Users/llm_development/.codex/history.jsonl'),\n'codex_auth_exists':os.path.exists('C:/Users/llm_development/.codex/auth.json'),\n}\nprint(json.dumps(out))\n\"",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "ttl": 72,
+  "created": "2026-10-18T05:12:00Z"
+}
