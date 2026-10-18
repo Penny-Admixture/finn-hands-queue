@@ -1,0 +1,9 @@
+{
+  "task_id": "survey-ai-userdata-002",
+  "op": "EXEC",
+  "cmd": "powershell -Command $ErrorActionPreference='SilentlyContinue'; foreach($d in 'C:\\Users\\llm_development\\.claude\\projects','C:\\Users\\llm_development\\.codex\\sessions'){ $f=@(Get-ChildItem -Recurse -File -Path $d); Write-Output $d; Write-Output $f.Count; Write-Output ($f|Measure-Object Length -Sum).Sum; $t=$f|Measure-Object LastWriteTime -Minimum -Maximum; Write-Output $t.Minimum; Write-Output $t.Maximum }",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "timeout": 120,
+  "ttl": 72,
+  "created": "2026-10-18T06:25:00Z"
+}
