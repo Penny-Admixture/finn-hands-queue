@@ -1,0 +1,10 @@
+{
+  "task_id": "marley-20261019-002",
+  "from": "marley",
+  "op": "EXEC",
+  "cmd": "powershell -Command Get-Command psql -ErrorAction SilentlyContinue; (Test-NetConnection -ComputerName 127.0.0.1 -Port 5432 -WarningAction SilentlyContinue).TcpTestSucceeded",
+  "project": "C:\\Users\\llm_development\\goose-qt",
+  "timeout": 60,
+  "ttl": 72,
+  "created": "2026-10-19T21:59:00+00:00"
+}
