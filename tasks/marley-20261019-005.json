@@ -1,0 +1,10 @@
+{
+  "task_id": "marley-20261019-005",
+  "from": "marley",
+  "op": "EXEC",
+  "cmd": "powershell -Command Test-Path $env:APPDATA\postgresql\pgpass.conf",
+  "project": "C:\\Users\\llm_development\\goose-qt",
+  "timeout": 60,
+  "ttl": 72,
+  "created": "2026-10-19T22:30:00+00:00"
+}
