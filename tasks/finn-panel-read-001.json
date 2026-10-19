@@ -1,0 +1,8 @@
+{
+  "task_id": "finn-panel-read-001",
+  "op": "EXEC",
+  "cmd": "cmd /c type C:\\Users\\llm_development\\goose-qt-coding-apparatus\\panel_minimax-m3.1-flash.md",
+  "project": "C:\\Users\\llm_development\\goose-qt-coding-apparatus",
+  "ttl": 300,
+  "created": "2026-10-19T21:21:01.221207+00:00"
+}
