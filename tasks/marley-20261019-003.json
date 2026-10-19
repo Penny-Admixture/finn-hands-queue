@@ -1,0 +1,10 @@
+{
+  "task_id": "marley-20261019-003",
+  "from": "marley",
+  "op": "EXEC",
+  "cmd": "powershell -Command where.exe psql; Test-Path $env:APPDATA\postgresql\pgpass.conf; Get-ChildItem C:\Progra~1\PostgreSQL -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Name",
+  "project": "C:\\Users\\llm_development\\goose-qt",
+  "timeout": 60,
+  "ttl": 72,
+  "created": "2026-10-19T22:04:00+00:00"
+}
