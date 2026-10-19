@@ -1,0 +1,10 @@
+{
+  "task_id": "finn-20261019-hands-test-001",
+  "from": "finn",
+  "op": "EXEC",
+  "cmd": "powershell -Command \"'00000000000000000000' | Out-File C:\\Users\\llm_development\\finn.txt\"",
+  "project": "C:\\Users\\llm_development\\goose-qt",
+  "timeout": 60,
+  "ttl": 72,
+  "created": "2026-10-19T22:16:53.092254+00:00"
+}
