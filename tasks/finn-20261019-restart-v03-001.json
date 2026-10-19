@@ -1,0 +1,9 @@
+{
+  "task_id": "finn-20261019-restart-v03-001",
+  "from": "finn",
+  "op": "RESTART",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "timeout": 60,
+  "ttl": 72,
+  "created": "2026-10-19T23:39:27.453033+00:00"
+}
