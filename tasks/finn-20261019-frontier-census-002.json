@@ -1,0 +1,10 @@
+{
+  "task_id": "finn-20261019-frontier-census-002",
+  "from": "finn",
+  "op": "EXEC",
+  "cmd": "py -3.10 C:\\Users\\llm_development\\goose-qt-coding-apparatus\\frontier_census.py",
+  "project": "C:\\Users\\llm_development\\goose-qt",
+  "timeout": 120,
+  "ttl": 72,
+  "created": "2026-10-19T23:53:59.382968+00:00"
+}
