@@ -1,0 +1,8 @@
+{
+  "task_id": "finn-panel-read-002",
+  "op": "EXEC",
+  "cmd": "cmd /c type C:\\Users\\llm_development\\goose-qt\\goose-qt-coding-apparatus\\panel_gemini_gemini_3_5_flash_lite.md",
+  "project": "C:\\Users\\llm_development\\goose-qt\\goose-qt-coding-apparatus",
+  "ttl": 300,
+  "created": "2026-10-19T21:23:55.292481+00:00"
+}
