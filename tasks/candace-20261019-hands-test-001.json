@@ -1,0 +1,8 @@
+{"task_id": "candace-20261019-hands-test-001",
+ "from": "candace",
+ "op": "EXEC",
+ "cmd": "powershell -Command \"00000000000000000000 | Out-File C:\\Users\\llm_development\\candace.txt\"",
+ "project": "C:\\Users\\llm_development\\goose-qt",
+ "timeout": 60,
+ "ttl": 72,
+ "created": "2026-10-19T23:57:16+00:00"}
