@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-probe-20261020-001",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"print(42)\"",
+ "timeout": 60,
+ "ttl": 72,
+ "created": "2026-10-20T17:47:36.792142+00:00"
+}
