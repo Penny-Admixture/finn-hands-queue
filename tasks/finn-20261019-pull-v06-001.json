@@ -1,0 +1,10 @@
+{
+  "task_id": "finn-20261019-pull-v06-001",
+  "from": "finn",
+  "op": "EXEC",
+  "cmd": "C:\\Program Files\\Git\\bin\\git.exe -C C:\\Users\\llm_development\\finn-hands pull",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "timeout": 60,
+  "ttl": 72,
+  "created": "2026-10-20T00:53:03.283964+00:00"
+}
