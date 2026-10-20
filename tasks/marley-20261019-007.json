@@ -1,0 +1,10 @@
+{
+  "task_id": "marley-20261019-007",
+  "from": "marley",
+  "op": "EXEC",
+  "cmd": "py -3.10 C:\\Users\\llm_development\\goose-qt-coding-apparatus\\marley_frontier_probe.py",
+  "project": "C:\\Users\\llm_development\\goose-qt",
+  "timeout": 120,
+  "ttl": 72,
+  "created": "2026-10-20T00:05:00+00:00"
+}
