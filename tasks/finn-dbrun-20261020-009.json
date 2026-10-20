@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-dbrun-20261020-009",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 C:\\Users\\llm_development\\finn_dbprobe.py",
+ "timeout": 120,
+ "ttl": 72,
+ "created": "2026-10-20T17:58:56.506147+00:00"
+}
