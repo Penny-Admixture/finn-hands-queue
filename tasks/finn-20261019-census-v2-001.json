@@ -1,0 +1,10 @@
+{
+  "task_id": "finn-20261019-census-v2-001",
+  "from": "finn",
+  "op": "EXEC",
+  "cmd": "py -3.10 C:\\Users\\llm_development\\goose-qt-coding-apparatus\\finn_census_v2.py",
+  "project": "C:\\Users\\llm_development\\goose-qt",
+  "timeout": 120,
+  "ttl": 72,
+  "created": "2026-10-20T00:45:42.168761+00:00"
+}
