@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-dbwrite2-20261020-010",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import base64;open(r'C:\\Users\\llm_development\\finn_dbdump.py','wb').write(base64.b64decode('CmltcG9ydCBqc29uLCBwc3ljb3BnCmNmZyA9IGpzb24ubG9hZChvcGVuKHIiQzpcVXNlcnNcbGxtX2RldmVsb3BtZW50XGdvb3NlLXF0XGNvbmZpZy5qc29uIikpCmRzbiA9IChjZmcuZ2V0KCJkYXRhYmFzZSIpIG9yIHt9KS5nZXQoImRzbiIpIG9yIGNmZy5nZXQoImRiX2RzbiIpCmNvbm4gPSBwc3ljb3BnLmNvbm5lY3QoZHNuKQpjdXIgPSBjb25uLmN1cnNvcigpCmN1ci5leGVjdXRlKCJTRUxFQ1QgaWQsIHNlcnZpY2UsIG1vZGVsLCByb2xlLCBjYXB0dXJlZF9hdCwgbGVuZ3RoKGNvbnRlbnQpLCBtZDUoY29udGVudCkgRlJPTSBmcm9udGllcl90dXJucyBXSEVSRSBpZCA+IDg2NDk4IE9SREVSIEJZIGlkIikKcHJpbnQoIk5FV0ZST05USUVSIiwgY3VyLmZldGNoYWxsKCkpCmN1ci5leGVjdXRlKCJTRUxFQ1QgKiBGUk9NIGFuYWx5c2lzLnRlc3RpbW9ueSBPUkRFUiBCWSBpZCIpCmNvbHMgPSBbZC5uYW1lIGZvciBkIGluIGN1ci5kZXNjcmlwdGlvbl0KcHJpbnQoIlRFU1RJTU9OWSBDT0xTIiwgY29scykKZm9yIHJvdyBpbiBjdXIuZmV0Y2hhbGwoKToKICAgIHByaW50KCJURVNUSU1PTlkgUk9XIiwgcm93KQpjdXIuZXhlY3V0ZSgiU0VMRUNUICogRlJPTSBhbmFseXNpcy5xdWVzdGlvbiBPUkRFUiBCWSBpZCIpCnFjb2xzID0gW2QubmFtZSBmb3IgZCBpbiBjdXIuZGVzY3JpcHRpb25dCnByaW50KCJRVUVTVElPTiBDT0xTIiwgcWNvbHMpCmZvciByb3cgaW4gY3VyLmZldGNoYWxsKCk6CiAgICBwcmludCgiUVVFU1RJT04gUk9XIiwgcm93KQo='));print('written')\"",
+ "timeout": 60,
+ "ttl": 72,
+ "created": "2026-10-20T18:01:32.859204+00:00"
+}
