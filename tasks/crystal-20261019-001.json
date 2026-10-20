@@ -1,0 +1,8 @@
+{"task_id": "crystal-20261019-001",
+ "from": "crystal",
+ "op": "EXEC",
+ "cmd": "py -3.10 C:\\Users\\llm_development\\goose-qt-coding-apparatus\\crystal_db_test.py",
+ "project": "C:\\Users\\llm_development\\goose-qt",
+ "timeout": 120,
+ "ttl": 72,
+ "created": "2026-10-20T00:08:00+00:00"}
