@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-pidid2-20261020-014",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import base64; exec(base64.b64decode('CmltcG9ydCBzdWJwcm9jZXNzCnBzID0gKCJHZXQtQ2ltSW5zdGFuY2UgV2luMzJfUHJvY2VzcyAtRmlsdGVyIFwiUHJvY2Vzc0lkPTQzNzMyIG9yIFByb2Nlc3NJZD0xNTkyNCBvciBQcm9jZXNzSWQ9MzA2OCBvciBQcm9jZXNzSWQ9Mzg5NDAgb3IgUHJvY2Vzc0lkPTM1NTZcIiAiCiAgICAgICJ8IFNlbGVjdC1PYmplY3QgUHJvY2Vzc0lkLENyZWF0aW9uRGF0ZSxDb21tYW5kTGluZSB8IEZvcm1hdC1MaXN0IikKbyA9IHN1YnByb2Nlc3MucnVuKFsicG93ZXJzaGVsbCIsIi1Ob1Byb2ZpbGUiLCItQ29tbWFuZCIscHNdLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUpCnByaW50KG8uc3Rkb3V0KQpwcmludCgiRVJSIiwgby5zdGRlcnJbOjUwMF0pCg=='))\"",
+ "timeout": 120,
+ "ttl": 72,
+ "created": "2026-10-20T18:06:35.913202+00:00"
+}
