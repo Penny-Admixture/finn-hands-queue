@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-tsfix-20261020-019",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import base64; exec(base64.b64decode('CmltcG9ydCBzdWJwcm9jZXNzLCB0aW1lCm8gPSBzdWJwcm9jZXNzLnJ1bihbInBvd2Vyc2hlbGwiLCItTm9Qcm9maWxlIiwiLUNvbW1hbmQiLCJSZXN0YXJ0LVNlcnZpY2UgVGFpbHNjYWxlIC1Gb3JjZSJdLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUsIHRpbWVvdXQ9NjApCnByaW50KCJSRVNUQVJUIHJjIiwgby5yZXR1cm5jb2RlLCBvLnN0ZG91dFs6MzAwXSwgby5zdGRlcnJbOjUwMF0pCnRpbWUuc2xlZXAoOCkKbzIgPSBzdWJwcm9jZXNzLnJ1bihbciJDOlxQcm9ncmFtIEZpbGVzXFRhaWxzY2FsZVx0YWlsc2NhbGUuZXhlIiwgInN0YXR1cyJdLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUsIHRpbWVvdXQ9MzApCnByaW50KCJTVEFUVVMgcmMiLCBvMi5yZXR1cm5jb2RlKTsgcHJpbnQobzIuc3Rkb3V0WzoxMjAwXSk7IHByaW50KCJFUlIiLCBvMi5zdGRlcnJbOjMwMF0pCg=='))\"",
+ "timeout": 180,
+ "ttl": 72,
+ "created": "2026-10-20T18:18:40.254251+00:00"
+}
