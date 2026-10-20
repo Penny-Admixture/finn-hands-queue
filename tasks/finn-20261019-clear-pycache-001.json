@@ -1,0 +1,10 @@
+{
+  "task_id": "finn-20261019-clear-pycache-001",
+  "from": "finn",
+  "op": "EXEC",
+  "cmd": "powershell -Command \"Remove-Item -Recurse -Force C:\\Users\\llm_development\\finn-hands\\finnhands\\__pycache__ -ErrorAction SilentlyContinue; echo 'cache cleared'\"",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "timeout": 30,
+  "ttl": 72,
+  "created": "2026-10-20T01:16:13.243443+00:00"
+}
