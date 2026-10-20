@@ -1,0 +1,9 @@
+{
+ "task_id": "sub146-ping-queue",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import base64; exec(base64.b64decode('aW1wb3J0IHNvY2tldApwcmludCgiUVVFVUUtQUxJVkUiLCBzb2NrZXQuZ2V0aG9zdG5hbWUoKSk='))\"",
+ "timeout": 60,
+ "ttl": 72,
+ "created": "2026-10-20T21:02:51.343462+00:00"
+}
