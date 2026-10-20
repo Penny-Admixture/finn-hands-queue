@@ -1,0 +1,9 @@
+{
+  "task_id": "marley-20261019-010",
+  "from": "marley",
+  "op": "FILE-READ",
+  "path": "C:\\Users\\llm_development\\4tran4 post viral success - DeepSeek (10_19_2026 9：39：24 PM).html",
+  "timeout": 120,
+  "ttl": 72,
+  "created": "2026-10-20T01:45:00+00:00"
+}
