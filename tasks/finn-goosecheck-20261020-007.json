@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-goosecheck-20261020-007",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import subprocess,os;o=subprocess.run(['tasklist','/FI','PID eq 38940'],capture_output=True,text=True).stdout;print('GOOSEPROC', o.strip().splitlines()[-1] if '38940' in o else 'NOT RUNNING');p=r'C:\\Users\\llm_development\\goose-qt\\goose-start.log';print('LOGTAIL', open(p,'rb').read()[-2500:].decode('utf-8','replace') if os.path.exists(p) else 'no log')\"",
+ "timeout": 60,
+ "ttl": 72,
+ "created": "2026-10-20T17:56:32.166010+00:00"
+}
