@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-kill3068-20261020-016",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "taskkill /PID 3068 /F",
+ "timeout": 60,
+ "ttl": 72,
+ "created": "2026-10-20T18:12:20.624815+00:00"
+}
