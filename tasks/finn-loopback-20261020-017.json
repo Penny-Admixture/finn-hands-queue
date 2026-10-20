@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-loopback-20261020-017",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import base64; exec(base64.b64decode('CmltcG9ydCBzdWJwcm9jZXNzLCB1cmxsaWIucmVxdWVzdCwganNvbiBhcyBKCm8gPSBzdWJwcm9jZXNzLnJ1bihbIm5ldHN0YXQiLCItYW5vIiwiLXAiLCJUQ1AiXSwgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwgdGV4dD1UcnVlKS5zdGRvdXQKcHJpbnQoIkw4MTEzIiwgW2wuc3RyaXAoKSBmb3IgbCBpbiBvLnNwbGl0bGluZXMoKSBpZiAiOjgxMTMiIGluIGxdKQp0cnk6CiAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KCJodHRwOi8vMTI3LjAuMC4xOjgxMTMvZXhlYyIsCiAgICAgICAgZGF0YT1KLmR1bXBzKHsiY21kIjoicHkgLTMuMTAgLWMgXCJwcmludCg0MylcIiIsInRpbWVvdXQiOjIwLCJmcm9tIjoiZmlubi1sb2NhbCIsInRhc2tfaWQiOiJsb2NhbC1wcm9iZS0wMDEifSkuZW5jb2RlKCksCiAgICAgICAgaGVhZGVycz17IkNvbnRlbnQtVHlwZSI6ImFwcGxpY2F0aW9uL2pzb24ifSkKICAgIHIgPSB1cmxsaWIucmVxdWVzdC51cmxvcGVuKHJlcSwgdGltZW91dD0zMCkKICAgIHByaW50KCJMT09QQkFDSyIsIHIuc3RhdHVzLCByLnJlYWQoKVs6NDAwXSkKZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgcHJpbnQoIkxPT1BCQUNLIEVSUiIsIHR5cGUoZSkuX19uYW1lX18sIHN0cihlKVs6MzAwXSkK'))\"",
+ "timeout": 120,
+ "ttl": 72,
+ "created": "2026-10-20T18:13:43.913670+00:00"
+}
