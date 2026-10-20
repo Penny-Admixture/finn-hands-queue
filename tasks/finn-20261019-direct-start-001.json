@@ -1,0 +1,10 @@
+{
+  "task_id": "finn-20261019-direct-start-001",
+  "from": "finn",
+  "op": "JOB-START",
+  "cmd": "py -3.10 C:\\Users\\llm_development\\goose-qt-coding-apparatus\\direct_exec.py",
+  "project": "C:\\Users\\llm_development\\goose-qt-coding-apparatus",
+  "timeout": 0,
+  "ttl": 72,
+  "created": "2026-10-20T01:13:00.131992+00:00"
+}
