@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-tsstat-20261020-018",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import base64; exec(base64.b64decode('CmltcG9ydCBzdWJwcm9jZXNzCmZvciBleGUgaW4gW3IiQzpcUHJvZ3JhbSBGaWxlc1xUYWlsc2NhbGVcdGFpbHNjYWxlLmV4ZSIsICJ0YWlsc2NhbGUiXToKICAgIHRyeToKICAgICAgICBvID0gc3VicHJvY2Vzcy5ydW4oW2V4ZSwgInN0YXR1cyJdLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUsIHRpbWVvdXQ9MzApCiAgICAgICAgcHJpbnQoIlRTIHZpYSIsIGV4ZSwgInJjIiwgby5yZXR1cm5jb2RlKQogICAgICAgIHByaW50KG8uc3Rkb3V0WzoxNTAwXSk7IHByaW50KCJFUlIiLCBvLnN0ZGVycls6MzAwXSk7IGJyZWFrCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoIlRTIGZhaWwiLCBleGUsIHR5cGUoZSkuX19uYW1lX18sIHN0cihlKVs6MTUwXSkK'))\"",
+ "timeout": 120,
+ "ttl": 72,
+ "created": "2026-10-20T18:15:53.035258+00:00"
+}
