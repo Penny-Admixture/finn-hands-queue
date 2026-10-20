@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-pidid-20261020-013",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import subprocess; o=subprocess.run(['powershell','-NoProfile','-Command','Get-CimInstance Win32_Process -Filter \\\"ProcessId=43732 or ProcessId=15924 or ProcessId=3068 or ProcessId=38940\\\" | Select-Object ProcessId,CreationDate,CommandLine | Format-List'],capture_output=True,text=True).stdout; print(o)\"",
+ "timeout": 120,
+ "ttl": 72,
+ "created": "2026-10-20T18:03:25.156278+00:00"
+}
