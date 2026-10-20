@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-netstat-20261020-003",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "netstat -ano -p TCP",
+ "timeout": 60,
+ "ttl": 72,
+ "created": "2026-10-20T17:49:43.837612+00:00"
+}
