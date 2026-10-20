@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-dbprobe-20261020-006",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import json,psycopg;cfg=json.load(open(r'C:\\Users\\llm_development\\goose-qt\\config.json'));dsn=cfg.get('database',{}).get('dsn') or cfg.get('db_dsn');conn=psycopg.connect(dsn); cur=conn.cursor();qs={'frontier': 'SELECT max(id), count(*) FROM frontier_turns','testimony': 'SELECT count(*) FROM analysis.testimony','question': 'SELECT count(*) FROM analysis.question','conflict': 'SELECT count(*) FROM analysis.testimony_conflict','poll': 'SELECT key, last_ok_at, last_error FROM wire.poll_health','tasks': 'SELECT task_id, status FROM wire.tasks ORDER BY rowid DESC LIMIT 3'};[print('PROBE', k, (lambda: (cur.execute(q), cur.fetchall())[1])() if True else None) if False else '' for k,q in []];import sys;exec(\\\"for k,q in qs.items():\\n try:\\n  cur.execute(q); print('PROBE',k,cur.fetchall())\\n except Exception as e:\\n  conn.rollback(); print('PROBE',k,'ERR',type(e).__name__,str(e)[:200])\\\")\"",
+ "timeout": 120,
+ "ttl": 72,
+ "created": "2026-10-20T17:56:32.166010+00:00"
+}
