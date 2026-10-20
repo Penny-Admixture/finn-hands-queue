@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-recon-20261020-002",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import os,socket,subprocess;d=r'C:\\Users\\llm_development\\goose-qt';print('DIR', sorted(os.listdir(d))[:40]);print('BAT', open(os.path.join(d,'run.bat')).read() if os.path.exists(os.path.join(d,'run.bat')) else 'no run.bat');s=socket.socket(); s.settimeout(3);print('PORT8113', s.connect_ex(('127.0.0.1',8113)));o=subprocess.run(['tasklist'],capture_output=True,text=True).stdout;print('PROCS', [l for l in o.splitlines() if any(k in l.lower() for k in ('python','goose','finnhands'))])\"",
+ "timeout": 120,
+ "ttl": 72,
+ "created": "2026-10-20T17:47:36.792142+00:00"
+}
