@@ -1,0 +1,10 @@
+{
+  "task_id": "finn-20261019-check-tray-001",
+  "from": "finn",
+  "op": "EXEC",
+  "cmd": "py -3.10 C:\\Users\\llm_development\\goose-qt-coding-apparatus\\check_tray_code.py",
+  "project": "C:\\Users\\llm_development\\finn-hands",
+  "timeout": 30,
+  "ttl": 72,
+  "created": "2026-10-20T01:07:40.353701+00:00"
+}
