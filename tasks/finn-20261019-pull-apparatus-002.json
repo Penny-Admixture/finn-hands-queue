@@ -1,0 +1,10 @@
+{
+  "task_id": "finn-20261019-pull-apparatus-002",
+  "from": "finn",
+  "op": "EXEC",
+  "cmd": "C:\\Program Files\\Git\\bin\\git.exe -C C:\\Users\\llm_development\\goose-qt-coding-apparatus pull",
+  "project": "C:\\Users\\llm_development\\goose-qt-coding-apparatus",
+  "timeout": 60,
+  "ttl": 72,
+  "created": "2026-10-20T00:58:26.972170+00:00"
+}
