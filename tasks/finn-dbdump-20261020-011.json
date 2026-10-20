@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-dbdump-20261020-011",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 C:\\Users\\llm_development\\finn_dbdump.py",
+ "timeout": 180,
+ "ttl": 72,
+ "created": "2026-10-20T18:01:32.859204+00:00"
+}
