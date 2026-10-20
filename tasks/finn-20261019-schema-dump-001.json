@@ -1,0 +1,10 @@
+{
+  "task_id": "finn-20261019-schema-dump-001",
+  "from": "finn",
+  "op": "EXEC",
+  "cmd": "py -3.10 C:\\Users\\llm_development\\goose-qt-coding-apparatus\\finn_schema_dump.py",
+  "project": "C:\\Users\\llm_development\\goose-qt",
+  "timeout": 120,
+  "ttl": 72,
+  "created": "2026-10-20T00:45:04.310677+00:00"
+}
