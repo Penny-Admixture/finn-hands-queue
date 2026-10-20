@@ -1,0 +1,9 @@
+{
+ "task_id": "finn-goosestart-20261020-005",
+ "from": "finn",
+ "op": "EXEC",
+ "cmd": "py -3.10 -c \"import subprocess,os;d=r'C:\\Users\\llm_development\\goose-qt';f=open(os.path.join(d,'goose-start.log'),'ab');p=subprocess.Popen(['py','-m','goose_qt.main'],cwd=d,stdout=f,stderr=f,creationflags=0x210,close_fds=True);print('started',p.pid)\"",
+ "timeout": 60,
+ "ttl": 72,
+ "created": "2026-10-20T17:52:04.145057+00:00"
+}
