@@ -1,0 +1,9 @@
+{
+  "task_id": "candace-20261021-008",
+  "from": "candace",
+  "op": "EXEC",
+  "cmd": "git -C C:\\Users\\llm_development\\goose-qt-coding-apparatus pull",
+  "project": "C:\\Users\\llm_development\\goose-qt",
+  "timeout": 120,
+  "ttl": 72
+}
