@@ -1,0 +1,9 @@
+{
+ "task_id": "candace-20261022-402",
+ "from": "candace",
+ "op": "EXEC",
+ "cmd": "py -3.10 C:\\Users\\llm_development\\goose-qt-coding-apparatus\\candace_mm_gospel.py",
+ "project": "C:\\Users\\llm_development\\goose-qt",
+ "timeout": 2700,
+ "ttl": 72
+}
