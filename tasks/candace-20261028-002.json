@@ -1,0 +1,10 @@
+{
+  "task_id": "candace-20261028-002",
+  "from": "candace",
+  "op": "EXEC",
+  "cmd": "py -3.10 C:\\Users\\llm_development\\goose-qt-coding-apparatus\\candace_finn_dump.py probe",
+  "project": "C:\\Users\\llm_development\\goose-qt-coding-apparatus",
+  "timeout": 300,
+  "ttl": 72,
+  "created": "2026-10-28T08:52:39.146477+00:00"
+}
